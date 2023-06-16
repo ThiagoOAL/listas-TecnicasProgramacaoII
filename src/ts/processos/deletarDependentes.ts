@@ -10,7 +10,7 @@ export default class DeletarDependentes extends Processo {
     }
     processar(): void {
         console.clear()
-        this.numero = this.entrada.receberNumero('Digite o número do documento do dependente que deseja excluir: ')
+        this.numero = this.entrada.receberNumero('Digite do documento do seu dependente que deseja excluir: ')
         this.clientes.forEach(cliente => {
             
             cliente.Dependentes.map(dependente => {

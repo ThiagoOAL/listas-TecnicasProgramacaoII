@@ -13,7 +13,7 @@ export default class DeletarTitulares extends Processo {
     processar(): void {
         console.clear()
         
-        this.numero = this.entrada.receberNumero('Digite o número do documento do titular que deseja excluir: ')
+        this.numero = this.entrada.receberNumero('Digite do documento do cliente que deseja excluir: ')
         this.clientes.forEach(cliente => {
  
             cliente.Documentos.map(item => {

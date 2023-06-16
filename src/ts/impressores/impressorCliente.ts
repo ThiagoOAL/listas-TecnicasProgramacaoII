@@ -3,7 +3,7 @@ import Cliente from "../modelos/cliente";
 import ImpressorDocumentos from "./impressorDocumentos";
 import ImpressorEndereco from "./impressorEndereco";
 
-export default class ImpressorCliente implements Impressor {
+export default class ImpressaorCliente implements Impressor {
     private cliente: Cliente
     private impressor!: Impressor
 
